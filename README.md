@@ -40,31 +40,35 @@ VALUES
 
 # 5. Membuat File koneksi.php
 
-[code.koneksi.php](https://github.com/user-attachments/files/23608518/code.koneksi.php)
+<img width="1064" height="710" alt="koneksi php" src="https://github.com/user-attachments/assets/f4a6dd0e-809e-4a74-b500-5c6b03e1aebd" />
+
 
 # 6. Membuat File index.php 
 Menampilkan seluruh data dari tabel data_barang.
 
-[code.index.php](https://github.com/user-attachments/files/23608523/code.index.php)
+<img width="1818" height="2534" alt="index php" src="https://github.com/user-attachments/assets/53ffd91a-c7fb-4c61-8fd5-149d79eea7de" />
 
 
 # 7. Membuat File tambah.php 
 Menambahkan data baru ke database melalui form input.
 
-[code.tambah.php](https://github.com/user-attachments/files/23608532/code.tambah.php)
+<img width="1742" height="3408" alt="tambah php" src="https://github.com/user-attachments/assets/b1f32f48-35ac-40ac-b2be-88f096ee9266" />
+
 
 # 8. Membuat File ubah.php
 Mengubah data barang berdasarkan ID.
 
-[code.ubah.php](https://github.com/user-attachments/files/23608535/code.ubah.php)
+<img width="2094" height="4662" alt="ubah php" src="https://github.com/user-attachments/assets/87d4001d-04e6-4750-a455-ba03eb8e6279" />
+
 
 # 9. Membuat File hapus.php
 
-[code.hapus.php](https://github.com/user-attachments/files/23608540/code.hapus.php)
+<img width="1156" height="710" alt="hapus php" src="https://github.com/user-attachments/assets/5f07722a-edd6-408c-8c32-f95bfc396fb6" />
+
 
 # 10. Menambahkan File style.css
 
-[code.css](https://github.com/user-attachments/files/23608562/code.css)
+<img width="1912" height="596" alt="style css" src="https://github.com/user-attachments/assets/5c60e8e5-fb92-4c65-9df8-3db938285ca0" />
 
 
 # Kesimpulan
