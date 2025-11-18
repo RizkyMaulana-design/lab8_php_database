@@ -39,119 +39,32 @@ VALUES
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 
 # 5. Membuat File koneksi.php
-<?php 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "latihan1";
 
-$conn = mysqli_connect($host, $user, $pass, $db);
-if (!$conn) {
-    die("Koneksi gagal.");
-}
-?>
+[code.koneksi.php](https://github.com/user-attachments/files/23608518/code.koneksi.php)
 
 # 6. Membuat File index.php 
 Menampilkan seluruh data dari tabel data_barang.
 
+[code.index.php](https://github.com/user-attachments/files/23608523/code.index.php)
+
+
 # 7. Membuat File tambah.php 
 Menambahkan data baru ke database melalui form input.
+
+[code.tambah.php](https://github.com/user-attachments/files/23608532/code.tambah.php)
 
 # 8. Membuat File ubah.php
 Mengubah data barang berdasarkan ID.
 
+[code.ubah.php](https://github.com/user-attachments/files/23608535/code.ubah.php)
+
 # 9. Membuat File hapus.php
-<?php
-include_once 'koneksi.php';
-$id = $_GET['id'];
-$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
-mysqli_query($conn, $sql);
-header('location: index.php');
-?>
+
+[code.hapus.php](https://github.com/user-attachments/files/23608540/code.hapus.php)
 
 # 10. Menambahkan File style.css
-body {
-    background-color: #f8f8f8;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
 
-.container {
-    width: 900px;
-    margin: 20px auto;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 5px #ccc;
-}
-
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.main {
-    padding: 10px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-table th {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: left;
-}
-
-table td {
-    border: 1px solid #ccc;
-    padding: 8px;
-}
-
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-table img {
-    width: 100px;
-}
-
-.input {
-    margin-bottom: 15px;
-}
-
-.input label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.input input[type="text"],
-.input select,
-.input input[type="file"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.submit input[type="submit"] {
-    background-color: #0b72b9;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.submit input[type="submit"]:hover {
-    background-color: #095a92;
-}
+[code.css](https://github.com/user-attachments/files/23608562/code.css)
 
 
 # Kesimpulan
